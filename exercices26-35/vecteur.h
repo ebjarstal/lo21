@@ -1,0 +1,4 @@
+#ifndef LO21_VECTEUR_H
+#define LO21_VECTEUR_H
+
+#endif //LO21_VECTEUR_H

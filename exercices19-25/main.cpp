@@ -1,4 +1,4 @@
-#include "main.h"
+#include "personne.h"
 
 Personne::~Personne() {
     if (conjoint) {

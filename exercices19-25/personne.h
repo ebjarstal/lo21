@@ -1,5 +1,5 @@
-#ifndef LO21_MAIN_H
-#define LO21_MAIN_H
+#ifndef LO21_PERSONNE_H
+#define LO21_PERSONNE_H
 
 #include <iostream>
 #include <string>
@@ -40,4 +40,4 @@ ostream& operator<<(ostream& f, Personne& p);
 
 void f();
 
-#endif //LO21_MAIN_H
+#endif //LO21_PERSONNE_H

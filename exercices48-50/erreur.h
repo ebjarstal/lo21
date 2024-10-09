@@ -1,6 +1,7 @@
 #ifndef LO21_ERREUR_H
 #define LO21_ERREUR_H
 
+#include <iostream>
 #include <string>
 
 using namespace std;

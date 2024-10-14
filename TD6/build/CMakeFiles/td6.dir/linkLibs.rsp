@@ -1,0 +1,1 @@
+ C:/Qt/6.6.1/msvc2019_64/lib/Qt6Widgetsd.lib C:/Qt/6.6.1/msvc2019_64/lib/Qt6Guid.lib C:/Qt/6.6.1/msvc2019_64/lib/Qt6Cored.lib -lmpr -luserenv C:/Qt/6.6.1/msvc2019_64/lib/Qt6EntryPointd.lib -lshell32 -ld3d11 -ldxgi -ldxguid -ld3d12 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

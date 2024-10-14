@@ -1,0 +1,1 @@
+-I"C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/td6_autogen/include" -isystem C:/Qt/6.6.1/msvc2019_64/include/QtCore -isystem C:/Qt/6.6.1/msvc2019_64/include -isystem "C:/Qt/6.6.1/msvc2019_64/mkspecs/win32-msvc" -isystem C:/Qt/6.6.1/msvc2019_64/include/QtWidgets -isystem C:/Qt/6.6.1/msvc2019_64/include/QtGui

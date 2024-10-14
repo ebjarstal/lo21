@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/td6.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\td6.dir\\td6_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\ebjarsta\\Desktop\\LO21 TD\\TD6\\build\\td6_autogen\\mocs_compilation.cpp\"",
+  "file": "C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/td6_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/td6.dir/td6_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/td6.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\td6.dir\\main.cpp.obj -c \"C:\\Users\\ebjarsta\\Desktop\\LO21 TD\\TD6\\td6\\main.cpp\"",
+  "file": "C:/Users/ebjarsta/Desktop/LO21 TD/TD6/td6/main.cpp",
+  "output": "CMakeFiles/td6.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/td6.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\td6.dir\\mainwindow.cpp.obj -c \"C:\\Users\\ebjarsta\\Desktop\\LO21 TD\\TD6\\td6\\mainwindow.cpp\"",
+  "file": "C:/Users/ebjarsta/Desktop/LO21 TD/TD6/td6/mainwindow.cpp",
+  "output": "CMakeFiles/td6.dir/mainwindow.cpp.obj"
+}
+]

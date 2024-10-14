@@ -1,0 +1,9 @@
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/td6.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/edit_cache.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/rebuild_cache.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/list_install_components.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/install.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/install/local.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/install/strip.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/td6_autogen_timestamp_deps.dir
+C:/Users/ebjarsta/Desktop/LO21 TD/TD6/build/CMakeFiles/td6_autogen.dir

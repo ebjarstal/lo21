@@ -50,6 +50,31 @@ void VuePartie::carteClique(VueCarte* vc) {
     if (vc->cartePresente()) {
         if (vc->isChecked()) {
             selectionCartes.insert(&vc->getCarte());
+            if (selectionCartes.size() == 3) {
+                vector<const Set::Carte*> c(selectionCartes.begin(), selectionCartes.end());
+                Set::Combinaison comb(*c[0], *c[1], *c[2]);
+                if (comb.estUnSET()) {
+                    controleur.getPlateau().retirer(*c[0]);
+                    controleur.getPlateau().retirer(*c[1]);
+                    controleur.getPlateau().retirer(*c[2]);
+                    selectionCartes.clear();
+                    if (controleur.getPlateau().getNbCartes() < 12) controleur.distribuer();
+                    // mise à jour affichage du plateau et score
+                    scoreValue++;
+                    scoreJoueur->display(scoreValue);
+                    // => nettoyage d'abor pour compacter
+                    for (size_t i = 0; i < vuecartes.size(); i++) vuecartes[i]->setNoCarte();
+                    size_t i = 0;
+                    for (auto it = controleur.getPlateau().begin(); it != controleur.getPlateau().end(); ++it, i++) {
+                        vuecartes[i]->setCarte(*it);
+                    }
+                } else {
+                    QMessageBox message(QMessageBox::Icon::Warning, "Attention", "Ce n'est pas un set !");
+                    message.exec();
+                    for (size_t i = 0; i < vuecartes.size(); i++) vuecartes[i]->setChecked(false);
+                    selectionCartes.clear();
+                }
+            }
         } else {
             selectionCartes.erase(&vc->getCarte());
         }
